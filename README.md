@@ -65,3 +65,13 @@ Make sure the bot has the necessary permissions in your server:
 
 - **Bot is not online:** Check the token and verify that only one instance of the bot is running with that token.
 - **Permissions issues:** Ensure the bot’s role has the necessary permissions in your server and that Privileged Intents are enabled in the Developer Portal.
+
+## Deployment on Back4App Free Tier
+
+This bot is deployed on **Back4App's Free Tier**, which offers the following resources:
+
+- **256MB of RAM**
+- **0.25 vCPU**
+- **600 hours of container runtime per month**
+
+Make sure to include the `Dockerfile`. The file should be in the root directory and configure the environment, dependencies, and commands for running the bot.
